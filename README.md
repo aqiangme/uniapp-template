@@ -1,7 +1,7 @@
 # uniapp-template
  微信小程序
- > vite vue3 TypeScript Pinia Unocss iconify i18n 
- > uniapp-template powered by uniApp
+> vite + vue3 + TypeScript + Pinia + Unocss + iconify + i18n
+uniapp-template powered by uniApp
 ## Build Setup
 	```
 	# install

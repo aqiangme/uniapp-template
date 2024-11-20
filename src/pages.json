@@ -1,0 +1,77 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)":"@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue"
+		}
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/work/index",
+			"style": {
+				"navigationBarTitleText": "工作"
+			}
+		},
+		{
+			"path": "pages/progre/index",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/tabBar/icon_home.png",
+				"selectedIconPath": "static/tabBar/select_icon_home.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/work/index",
+				"iconPath": "static/tabBar/icon_work.png",
+				"selectedIconPath": "static/tabBar/select_icon_work.png",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/progre/index",
+				"iconPath": "static/tabBar/icon_progre.png",
+				"selectedIconPath": "static/tabBar/select_icon_progre.png",
+				"text": "消息"
+			},
+			{
+				"pagePath": "pages/me/index",
+				"iconPath": "static/tabBar/icon_me.png",
+				"selectedIconPath": "static/tabBar/select_icon_me.png",
+				"text": "我的"
+			}
+		]
+	}
+}
